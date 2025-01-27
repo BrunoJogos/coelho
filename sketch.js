@@ -160,7 +160,7 @@ function draw()
     eating_sound.play();
   }
 
-  if(fruit!=null && fruit.position.y>=canH)
+  if(fruit!=null && fruit.position.y>=canH-50)
   {
     bunny.changeAnimation('crying');
     bk_song.stop();
